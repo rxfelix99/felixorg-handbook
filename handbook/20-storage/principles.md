@@ -1,4 +1,3 @@
-```markdown
 # storage_principles.md — felixOrg Storage Principles
 
 This document explains **why** storage in felixOrg is arranged the way it is.  
@@ -184,4 +183,3 @@ Everything else is implementation detail.
 
 ## Change log
 - 2025-12-18: Initial storage principles articulated from existing felixOrg practice and failure-avoidance patterns.
-```

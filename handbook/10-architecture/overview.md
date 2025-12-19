@@ -1,4 +1,3 @@
-```markdown
 # overview.md — felixOrg Architecture Overview
 
 ## Purpose
@@ -136,13 +135,3 @@ That’s not a lack of ambition — it’s how systems survive contact with real
 
 ## Change log
 - 2025-12-18: Initial architecture overview synthesized from existing felixOrg practices and constraints.
-```
-# Architecture Overview
-
-## Purpose
-
-## High-level topology
-
-## Naming conventions
-
-## Key principles

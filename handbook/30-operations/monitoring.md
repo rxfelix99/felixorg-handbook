@@ -1,4 +1,3 @@
-```markdown
 # operations_monitoring.md — felixOrg Monitoring & Situational Awareness
 
 This document covers **how felixOrg knows when something is wrong** — or at least wrong enough to care.
@@ -217,4 +216,3 @@ None are added until they reduce risk without adding cognitive load.
 
 ## Change log
 - 2025-12-18: Initial monitoring operations document synthesized from current felixOrg practices and failure-avoidance philosophy.
-```

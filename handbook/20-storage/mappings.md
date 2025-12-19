@@ -1,4 +1,3 @@
-```markdown
 # storage_mappings.md — felixOrg Storage Mappings
 
 This file describes **what lives where, and why**.  
@@ -145,41 +144,3 @@ RFiMac is storage-conservative by design. If space fills up, something else move
 
 ## Backup and data flow (summary)
 
-```
-
-RFStudio (working)  → rsync → RFiMac (backup)
-RFStudio (archive)  → rsync → RFiMac / external
-RFiMac (finance)    → Time Machine + offsite swap
-
-```
-
-- Typical rsync throughput: ~100 MB/s
-- Bottleneck: 1 GbE LAN, not disks
-- Backups are **pull-based** where possible to avoid surprises
-
----
-
-## Anti-patterns (explicitly avoided)
-
-- “One giant disk for everything”
-- Cloud-only primary storage
-- Implicit backups (“I think Time Machine got it”)
-- Indexing multi-terabyte binary blobs
-- Treating media like documents
-
-If you see these creeping in, stop and correct.
-
----
-
-## Notes / open questions
-
-- Confirm exact sizes and models in `network_assets.xlsx`
-- Decide whether long-term VM archives belong on KSink or separate cold storage
-- Revisit offsite strategy if archive size continues to grow
-- Periodically validate that backups can actually restore
-
----
-
-## Change log
-- 2025-12-18: Initial storage mappings synthesized from felixOrg inventory, host roles, and observed backup workflows.
-```

@@ -1,0 +1,11 @@
+# Network
+
+## Subnets and addressing
+
+## DNS / hosts conventions
+
+## Remote access (Mesh/VPN)
+
+## Diagram references
+- Source: `assets/diagrams/network_topology.vsdx`
+- Exports: `assets/diagrams/network_topology.pdf`, `assets/diagrams/network_topology.svg`

@@ -1,0 +1,7 @@
+handbook/10-architecture/overview.md
+handbook/10-architecture/hosts.md
+handbook/10-architecture/network.md
+handbook/20-storage/principles.md
+handbook/20-storage/mappings.md
+handbook/30-operations/backup.md
+handbook/30-operations/monitoring.md

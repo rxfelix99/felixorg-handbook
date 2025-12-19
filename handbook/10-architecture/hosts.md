@@ -29,8 +29,8 @@ Conventions:
 
 ## Address plan (current working assumptions)
 - **LAN:** `192.168.50.0/24`
-- **Router/gateway:** _(fill in)_ e.g., `192.168.50.1`
-- **Static/reserved range:** _(fill in)_ e.g., `.50–.99` for infrastructure and desktops
+- **Router/gateway:** `192.168.50.1`
+- **Static/reserved range:** '-002 - .254'
 - **Meshnet:** `100.x.x.x` addresses (unstable over time unless pinned; treat as “current observed”)
 
 ---
